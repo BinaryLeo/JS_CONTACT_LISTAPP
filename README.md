@@ -1,5 +1,6 @@
 # JS_CONTACT_LISTAPP
 A modern concept of a mobile contact list built with Vanilla JS.
+
 Click below and access the project by GitHub Pages:
 https://binaryleo.github.io/JS_CONTACT_LISTAPP/
 
