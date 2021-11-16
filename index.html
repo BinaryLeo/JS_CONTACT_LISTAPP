@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Contact List APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3b0574f28f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="smartphone">
+      <!-- Device -->
+      <div id="volume"></div>
+      <div id="toolbar">
+        <!-- Toolbar -->
+        <div><i class="fas fa-wifi"></i></div>
+        <div id="time"></div>
+        <div><i class="fas fa-battery-three-quarters"></i></div>
+      </div>
+      <div class="header">
+        <p id="date"></p>
+      </div>
+
+      <div class="content">
+        <ul id="list"></ul>
+      </div>
+      <div class="box">
+        <div class="form">
+          <form>
+            <ul class="wrapper">
+              <li class="form-row">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="form"
+                  placeholder="Contact Name"
+                />
+              </li>
+              <li class="form-row">
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  id="phone"
+                  name="form"
+                  placeholder="Phone number"
+                />
+              </li>
+              <li class="form-row">
+                <label for="description">Description</label>
+                <input
+                  type="text"
+                  id="description"
+                  name="form"
+                  placeholder="Description"
+                />
+              </li>
+              <li class="form-row">
+                <button id="btn" type="submit">Save</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+      <div class="led-green"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
